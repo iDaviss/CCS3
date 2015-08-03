@@ -1,7 +1,13 @@
-h1{
-
+h1
+{
 	/*Se utilizan las fuentes que tenga el usuario en su navegador
 	si no tiene la primera que ponga la segunda.*/
 	font-family: Arial, Helvetica, sans-serif;
+	color: maroon;
+}
+
+.article-header 
+{
+	font-size: Arial,Helvetica,sans-serif;
 	color: maroon;
 }

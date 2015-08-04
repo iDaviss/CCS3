@@ -1,0 +1,26 @@
+main
+{
+	display: table;
+	/*Envia abajo de todo el titulo*/
+	caption-side: top;
+}
+
+
+header
+{
+	display: table-caption;
+}
+
+section
+{
+	display: table-row;
+	background-color: maroon;
+	width: 80%;
+}
+
+aside
+{
+	display: table-cell;
+	background-color: peru;
+	width: 20%;
+}

@@ -6,8 +6,22 @@ h1
 	color: maroon;
 }
 
+/*Selector de id
+NO IMPORTA QUE UN id SE LLAME IGUAL QUE UNA CLASE
+DRY DONT REPEAT */
+
+/*Los selectores se escriben en Javascript*/
+#topbar
+{
+	background-color: pink;
+}
+
+.article {
+	
+}
+
 .article-header 
 {
 	font-size: Arial,Helvetica,sans-serif;
-	color: maroon;
+	color: green;
 }

@@ -33,7 +33,11 @@ id=DRY DONT REPEAT YOURSELF*/
 
 }
 
-.article-header 
+/* No mas de tres niveles de profundidad:NO ANIDAR MAS DE TRES CLASES
+	.article-header
+	h1
+	a*/
+.article-header h1 a
 {
 	font-size: Arial,Helvetica,sans-serif;
 	color: green;
@@ -42,7 +46,6 @@ id=DRY DONT REPEAT YOURSELF*/
 .article_bgblue
 {
 	background-color: blue;
-
 }
 
 /*Atributo del selector*/
@@ -56,4 +59,19 @@ li[data-RobotOwner="Sayaka Yumi"]
 {
 	background-color: brown;
 	color:white;
+}
+
+input[type="email"]:valid
+{
+	background-color: peru;
+}
+
+input[type="email"]:focus:invalid
+{
+	background-color: red;
+}
+
+input:checked
+{
+
 }

@@ -45,7 +45,15 @@ id=DRY DONT REPEAT YOURSELF*/
 
 }
 
-li[data-RobotOwner="Koji Kabuto"]{
+/*Atributo del selector*/
+li[data-RobotOwner="Koji Kabuto"]
+{
 	background-color: olive;
 	color: white;
+}
+
+li[data-RobotOwner="Sayaka Yumi"]
+{
+	background-color: brown;
+	color:white;
 }

@@ -37,7 +37,7 @@ id=DRY DONT REPEAT YOURSELF*/
 	.article-header
 	h1
 	a*/
-.article-header h1 a
+.article-header
 {
 	font-size: Arial,Helvetica,sans-serif;
 	color: green;
@@ -71,7 +71,22 @@ input[type="email"]:focus:invalid
 	background-color: red;
 }
 
-input:checked
+/* ~ involucra a todos los elementos hermanos, los que estan en el mismo nivel, que no son hijos
+	+ involucra solo el primer siguiente selector*/
+.toggle:checked + .checked
 {
+	background-color: olive;
+}
 
+.checked
+{
+	width: 100px;
+	height: 100px;
+	background-color: peru;
+}
+
+/* -- son modificadores. Toma el codigo del .article y agrega el del modificador*/
+.article--bgblue
+{
+	background-color: blue;
 }

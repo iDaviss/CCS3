@@ -1,0 +1,137 @@
+commit 0d05fa8e912ac8b5b0c5a3fc5adfe2c6c052c0bb
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Wed Aug 5 19:31:47 2015 -0500
+
+    Aun no termina el video 'Pseudo selectores' pero se debe borrar toda la estructura para otro ejemplo de selectores de clase. En este commit se vieron Pseudo selectores de elementos, pseudo selectores de clases.
+
+commit 63ac1c9bfb42d176704414c620595bc2b2abaac3
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Wed Aug 5 19:21:13 2015 -0500
+
+    Se borro la estructura y se creo un nuevo archivo css 'last-child.css'
+
+commit f10a722abc47bc404f8c7a19dd397fbbcea5b920
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Wed Aug 5 18:52:54 2015 -0500
+
+    Inicio video 'Pseudo Selectores'. Se borro toda la estrutura y se regreso a la estructura del commit Unidades de medida
+
+commit c0f0b62319de028f0aba31ac46d4dda0587bd62e
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Wed Aug 5 18:32:33 2015 -0500
+
+    Fin del video 'Metodología BEM'
+
+commit 91ff01ef5fd07ade1d46040440acfdf665c2dd29
+Author: David casa <ideas-software@live.com.mx>
+Date:   Wed Aug 5 12:20:38 2015 -0500
+
+    --Salida Home
+
+commit 47dd69e30d45fefd7cd0f9058987a97332531a7c
+Author: David casa <ideas-software@live.com.mx>
+Date:   Wed Aug 5 11:16:59 2015 -0500
+
+    Inicio video 'Metodología BEM'. Se borro parte de la estructura y se crearon algunos bloques de elementos y modificadores
+
+commit 6ead1ce94aa3bb92fbaa89ff486265d2ec4143f0
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Tue Aug 4 18:24:35 2015 -0500
+
+    Fin del video 'Unidades de medida'. Se utilizarón las unidades em, rem, px, vh, vw
+
+commit e12bf766162fa3a3308f8b18f414c6979d236393
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Tue Aug 4 17:47:28 2015 -0500
+
+    Inicio video 'Unidades de medida' Se borro toda la estructura. Se agregó un meta name=viewport para dispositivos moviles
+
+commit 23d59c846fe3a3b4ddb603e678339eac0d2a02a8
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Tue Aug 4 17:42:49 2015 -0500
+
+    Fin video 'Float vs Display'. Se utilizó el display:table, caption, row y cell
+
+commit 9859b071c593fb715eb2bbe646f529083855769d
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Tue Aug 4 17:33:17 2015 -0500
+
+    Inicio video 'Float vs Display'. Se borro toda la estructura de los archivos para comenzar una nueva.
+
+commit fb5f63fdd5bed136bcd56ab2dde51d0e5d95a1ee
+Author: David casa <ideas-software@live.com.mx>
+Date:   Tue Aug 4 12:07:18 2015 -0500
+
+    Fin del video 'Selectores de atributo'
+
+commit 65f544717d56244225e42ffd229e351a3d2b87dd
+Author: David casa <ideas-software@live.com.mx>
+Date:   Tue Aug 4 11:48:22 2015 -0500
+
+    Inicio video Selectores de atributo. No mas de tres niveles de profundidad
+
+commit 6b1cd72e7c6abf9288306644eb50f0ab89dead38
+Author: David casa <ideas-software@live.com.mx>
+Date:   Mon Aug 3 23:13:57 2015 -0500
+
+    Fin video atributos selectores. Se agregarón 2 atributos de selectores
+
+commit bbedbb314a4e0d66dc66295c39eeeaca6f61b2dc
+Author: David casa <ideas-software@live.com.mx>
+Date:   Mon Aug 3 23:03:37 2015 -0500
+
+    Atributos del selector - Se agrego un atributo data-RobotOwner
+
+commit 9c636d1a44b72cb131fb844f8086ee2107e028b6
+Author: iDavis <davis_jtqm@hotmail.com>
+Date:   Mon Aug 3 21:18:40 2015 -0500
+
+    Selecctores de clase. Fin de video
+
+commit 71556d70a9c3814002687c5ccfef4dcf3aae31cc
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Mon Aug 3 19:26:30 2015 -0500
+
+    --Salida de la oficina
+
+commit bd65ea14a09e81f571e2ad9c5fb7b970b249dc20
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Mon Aug 3 19:07:36 2015 -0500
+
+    Inicio Selectores en CSS
+
+commit dd890c6ecdeae2405b417f1898094ab1907595b2
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Mon Aug 3 18:41:37 2015 -0500
+
+    Fin Introducción a CSS
+
+commit 56bd5e7a510d26f1b2030c21b401f280d1e12610
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Mon Aug 3 18:35:48 2015 -0500
+
+    Selector de elementos
+
+commit 4557745a3e69a27803c228ed8f762df629f866ec
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Mon Aug 3 18:26:48 2015 -0500
+
+    Creación del archivo style.css
+
+commit 23962d05325815450fdf1783166261c266343757
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Mon Aug 3 17:58:32 2015 -0500
+
+    Fin del video 'Estructura HTML'
+
+commit 5b7ed972761d8925b96a29e7b938a5e29c0069c0
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Mon Aug 3 17:45:37 2015 -0500
+
+    Se agregó la estructura semantica del html con los elementos de navegación
+
+commit c6ffa2059c9ca9ca404e637224127503e32131a7
+Author: David oficina <ideas-software@live.com.mx>
+Date:   Mon Aug 3 17:26:40 2015 -0500
+
+    Commit inicial. Creación archivo index

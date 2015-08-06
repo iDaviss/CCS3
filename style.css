@@ -28,8 +28,19 @@ body{
 		list-style-type: none;
 	}
 
+	.temperature::after{
+		/*Un atributo se puede meter dentro de un contenido que no se indexado en el HTML*/
+		content: attr(data-unidad);
+		font-size: 12px;
+		font-family: courier;
+		color: red;
+	}
+
+
 .centrar{
 	width: 400px;
 	margin-left:auto;
 	margin-right: auto;
 }
+
+

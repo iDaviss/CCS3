@@ -1,80 +1,35 @@
-
-html{
-	font-size: 100%
-}
-
-h1{
-	font-size: 1.5rem;
-	/*rem ROOT EM. se basa en la raiz del documento. EL HTML*/
-	/*em es del contenedor*/
-
-}
-
-h1 a{
-	font-size: .8em;
-}
-
-span{
-	font-size: 1rem;
-	position: relative;
-}
-
-/*Pseudo selector*/
-	span::after{
-		content: ">";
-	}
-
-	span::before{
-		content: "+ ";
-		position: absolute;
-		top: -10px;
-		right:-20px;
-	}
-
-/*Cuando creamos elementos visuales es bueno poner em*/
-
-.square{
-	width: 1em;
-	height: 1em;
-	background-color: peru;
-	font-size: 50px;
-}
-
-.square::after{
-	content: "";
-	width: .5em;
-	height: .5em;
-	background-color: red;
-	position: absolute;
-	top: .25em;
-	left: .25em;
-
-}
-
-.container{
-	width: 80%;
-}
-
-
-
-/*
-ul{
-	list-style-type: none;
+body{
 	margin: 0;
 	padding: 0;
-	background-color: peru;
-	height: 100vh;
-	width: 25vw;
-	//vw view port with
 }
 
-li{
-	background-color: olive;
-	height: 20vh;
-	border-bottom: maroon 1px solid;
-}
-*/
 
-li:last-child{
-	background-color: red;
+.weather-card{
+	background-color: #80EAE8;
+	padding: .5em;
+}
+
+	.weather-card__header{
+		margin: 0;
+	}
+
+	.weather-card__date{
+		font-weight: normal;
+		font-size: 12px;
+		font-family: courier;
+		margin:0 0 .5em 0;
+		border-bottom: 1px solid #D380EA;
+		display: block;
+	}
+
+	.weather-card__footer{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+.centrar{
+	width: 400px;
+	margin-left:auto;
+	margin-right: auto;
 }

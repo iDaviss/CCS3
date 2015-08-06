@@ -1,0 +1,58 @@
+/*Fuentes seguras.Las estadar.*/
+/*
+html{
+	font-family: font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+}
+*/
+
+/*Lo mediaqueries definen los brack point. En que momento de ruptura definira los elementos*/
+html{
+	font-family: 'Indie Flower', cursive;
+	font-size: 80%;
+}
+/*and es la parte de consulta*/
+/*min-width Minimo (cantidad) hasta el infinito
+  max-width de 0 hasta (cantidad)*/
+  /*Con los breackpoint se recomienda trabajar en em*/
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){
+	html{
+		font-size: 120%;
+	}
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.main-header{
+	text-align: center;
+	background-color: #16210b;
+	color: white;
+	padding: 4em;
+}
+
+.main-header h1{
+	margin: 0;
+}
+
+.main-header h2{
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+/*
+@media screen and (min-width: 400px){
+	.main-header{
+		background-color: olive;
+	}
+}
+*/
+
+/*
+@media screen all and (orientation:landscape){
+	.main-header{
+		background-color: red;
+	}
+}
+*/

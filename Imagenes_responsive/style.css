@@ -41,18 +41,18 @@ body{
 	font-weight: normal;
 }
 
-/*
-@media screen and (min-width: 400px){
-	.main-header{
-		background-color: olive;
-	}
+.card {
+	height: 30vh;
+	width: 100%;
+	background-image: url(valencia.jpg);
+	background-size: cover;
 }
-*/
 
-/*
-@media screen all and (orientation:landscape){
-	.main-header{
-		background-color: red;
+@media all and (max-width:28em){
+	.card{
+		background-image: url(valencia-small.jpg);
+		background-size: auto;
+		background-position: center;
+
 	}
 }
-*/

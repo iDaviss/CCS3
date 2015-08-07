@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--Block element modifier BEM-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+
+		<title>FrontPlatzi</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<h2>Título</h2>
+	<span class="weather-card__date centrar">Subtítulo de mi web</span>
+		<!--BLOQUE DE ELEMENTO __ -->
+		<!--MODIFICADOR (- -)DOS GUIONES SEGUIDOS -->
+		<!--
+		.persona { ... }
+			.persona__brazo { ... }
+			.persona__pie--izquierdo { ... }
+				.pie--izquierdo { ... }
+
+
+			.persona--mujer { ... }
+			.persona--oriental { ... }
+		-->
+		<!--cuando se separa por un - es una abstraccion, un nombre unico.-->
+		<div class="weather-card">
+			<h3 class="weather-card__header">SunnyVale</h3>
+			<h4 class="weather-card__date">March, 25th</h4>
+			<img src="" class="" />
+			<ul class="weather-card__footer">
+				<li class="Weather-card__footer__item temperature" data-unidad="f">5</li>
+				<li class="Weather-card__footer__item">Elemento 2</li>
+				<li class="Weather-card__footer__item">Elemento 3</li>
+				<li class="Weather-card__footer__item">Elemento 4</li>
+			</ul>
+		</div>
+
+		<div class="weather-card">
+			<h3 class="weather-card__header">SunnyVale</h3>
+			<h4 class="weather-card__date">March, 25th</h4>
+			<img src="" class="" />
+			<ul class="weather-card__footer">
+				<li class="Weather-card__footer__item temperature" data-unidad="f">5</li>
+				<li class="Weather-card__footer__item">Elemento 2</li>
+				<li class="Weather-card__footer__item">Elemento 3</li>
+				<li class="Weather-card__footer__item">Elemento 4</li>
+			</ul>
+		</div>
+		<!--
+		<div class="square">
+			
+		</div>
+		<h1>Titulo <a href="li">Link <span>Span</span></a>	</h1>
+		<a href="">Link</a>
+		-->
+
+	</body>
+</html>

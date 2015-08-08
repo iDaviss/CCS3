@@ -29,7 +29,9 @@ body{
 	text-align: center;
 	background-color: #16210b;
 	color: white;
-	padding: 4em;
+	
+	padding: .4em;
+	
 }
 
 .main-header h1{
@@ -42,17 +44,71 @@ body{
 }
 
 .card {
+	position: relative;
 	height: 30vh;
-	width: 100%;
-	background-image: url(valencia.jpg);
 	background-size: cover;
+	color: white;
+	padding: .4em;
+	font-family: 'Arial',cursive;
 }
 
-@media all and (max-width:28em){
-	.card{
+	.card--valencia{
 		background-image: url(valencia-small.jpg);
-		background-size: auto;
-		background-position: center;
 
 	}
+
+	.card[data-city="mv"] {
+		background-image: url(mv.jpg);
+	}
+
+	.card__title{
+		margin:0;
+		text-align: center;
+		font-size: 2rem;
+	}
+
+	.card__date{
+		font-size: .7rem;
+		margin: 0;
+		text-align: center;
+	}
+
+	@media all and (min-width:28em){
+		.card{
+			background-image: url(valencia.jpg);
+			background-position: center;
+		}
+	}
+
+	.card__info{
+		/*Si queremos que se posicione en algun lugar del contenedor.*/
+		position: absolute;
+		bottom: .4em;
+		left: .4em;
+	
+		text-align: center;
+
+	}
+
+	.card__image{
+		display: block;
+
+	}
+
+	.card__temp{
+		display: block;
+		font-size: 3rem;
+		line-height: 1;
+	}
+
+	.card__maxt::before{
+		content: "Max: ";
+	}
+
+	.card__mint::before{
+		content: "Min ";
+	}
+p{
+	font-family: Arial;
+	color: yellow;
 }

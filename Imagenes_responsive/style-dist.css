@@ -19,6 +19,7 @@ html {
     font-size: 120%;
   }
 }
+
 body {
   padding: 0;
   margin: 0;
@@ -28,7 +29,7 @@ body {
   text-align: center;
   background-color: #16210b;
   color: white;
-  padding: .4em;
+  padding: 0.4em;
 }
 
 .main-header h1 {
@@ -46,7 +47,7 @@ body {
   height: 30vh;
   background-size: cover;
   color: white;
-  padding: .4em;
+  padding: 0.4em;
   font-family: 'Arial',cursive;
 }
 
@@ -78,11 +79,12 @@ body {
     background-position: center;
   }
 }
+
 .card__info {
   /*Si queremos que se posicione en algun lugar del contenedor.*/
   position: absolute;
-  bottom: .4em;
-  left: .4em;
+  bottom: 0.4em;
+  left: 0.4em;
   text-align: center;
 }
 

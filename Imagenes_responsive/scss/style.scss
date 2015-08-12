@@ -4,6 +4,7 @@ html{
 	font-family: font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
 }
 */
+$gutter:.4em;
 
 /*Lo mediaqueries definen los brack point. En que momento de ruptura definira los elementos*/
 html{
@@ -30,7 +31,7 @@ body{
 	background-color: #16210b;
 	color: white;
 	
-	padding: .4em;
+	padding: $gutter;
 	
 }
 
@@ -48,7 +49,7 @@ body{
 	height: 30vh;
 	background-size: cover;
 	color: white;
-	padding: .4em;
+	padding: $gutter;
 	font-family: 'Arial',cursive;
 }
 
@@ -83,8 +84,8 @@ body{
 	.card__info{
 		/*Si queremos que se posicione en algun lugar del contenedor.*/
 		position: absolute;
-		bottom: .4em;
-		left: .4em;
+		bottom: $gutter;
+		left: $gutter;
 	
 		text-align: center;
 

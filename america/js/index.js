@@ -7,6 +7,13 @@
 	var today = new Date();
 	var timeNow = today.toLocaleTimeString();
 
+	var $body = $("body");
+	
+	var nombreNuevaCiudad = $("[data-input='cityAdd']");
+	var buttonAdd = $("[data-button='add']");
+
+	$( buttonAdd ).on("click", addNewCity);
+
 	var cityWeather={};
 	cityWeather.zone;
 	cityWeather.icon;
@@ -67,8 +74,24 @@ function getCurrentWeather(data){
 		clone.querySelector("[data-temp='current").innerHTML=cityWeather.temp.toFixed(1);
 		
 
-		$(".loader").hide();
-		$("body").append(clone);
+		$("loader").hide();
+		$( $body ).append(clone);
 	}
+
+function addNewCity(event){
+	event.preventDefault();
+	$.getJSON( API_WEATHER_URL + "q=" + $( nombreNuevaCiudad ).val(), getWeatherNewCity);
+}
+
+function getWeatherNewCity(data){
+	cityWeather={};
+	cityWeather.zone=data.name;
+	cityWeather.icon=IMG_WEATHER + data.weather[0].icon + ".png";
+	cityWeather.temp=data.main.temp-273.15;
+	cityWeather.temp_max=data.main.temp_max-273.15;
+	cityWeather.temp_min=data.main.temp_min-273.15;
+
+
+}
 
 })();
